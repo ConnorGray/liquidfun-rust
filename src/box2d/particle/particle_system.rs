@@ -145,7 +145,6 @@ extern {
     fn b2ParticleSystem_GetWeightBuffer(ps: *mut B2ParticleSystem) -> *mut f32;
 }
 
-#[allow(raw_pointer_derive)]
 #[derive(Clone)]
 pub struct ParticleSystem {
     pub ptr: *mut B2ParticleSystem
